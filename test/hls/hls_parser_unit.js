@@ -853,7 +853,7 @@ describe('HlsParser', function() {
         var error = new shaka.util.Error(
             shaka.util.Error.Severity.CRITICAL,
             shaka.util.Error.Category.MANIFEST,
-            Code.HLS_REQUIRED_ATTRIBUTE_MISSING,
+            // Code.HLS_REQUIRED_ATTRIBUTE_MISSING,
             attributeName);
 
         verifyError(master, media, error, done);
